@@ -1,0 +1,111 @@
+{
+  "store": {
+    "Name": "Coffee House",
+    "Location": "Pham Hung",
+    "Staffs": [
+      {
+        "Role": "Waiter",
+        "Name": "Rose",
+        "Age": 25,
+        "Salary": 3000
+      },
+      {
+        "Role": "Waiter",
+        "Name": "John",
+        "Age": 25,
+        "Salary": 1500
+      },
+      {
+        "Role": "Manager",
+        "Name": "Michael",
+        "Age": 33,
+        "Salary": 7000
+      },
+      {
+        "Role": "Nobody",
+        "Name": "Nobody",
+        "Age": 0,
+        "Salary": 0
+      }
+    ],
+    "Menu": [
+      {
+        "Type": "Drink",
+        "MenuItems": [
+          {
+            "Name": "Capuchino",
+            "Cost": "12$",
+            "ingredients": [
+              "water",
+              "milk"
+            ],
+            "Amount": 10
+          },
+          {
+            "Name": "Coffee",
+            "Cost": "9$",
+            "ingredients": [
+              "water",
+              "milk",
+              "coffee"
+            ],
+            "Amount": 10
+          },
+          {
+            "Name": "Lemon Juice",
+            "Cost": "20000d",
+            "ingredients": [
+              "water",
+              "sugar",
+              "lemon"
+            ],
+            "Amount": 10
+          }
+        ]
+      },
+      {
+        "Type": "Food",
+        "MenuItems": [
+          {
+            "Name": "Hambuger",
+            "Cost": "80000d",
+            "ingredients": [
+              "meet",
+              "Bakery",
+              "Tomato"
+            ],
+            "Amount": 20
+          }
+        ]
+      }
+    ],
+    "Table": [
+      {
+        "Number": 1,
+        "Slot": 2,
+        "RemainSlot": 2,
+        "IsFree": true,
+        "Order": []
+      },
+      {
+        "Number": 2,
+        "Slot": 4,
+        "RemainSlot": 4,
+        "IsFree": true,
+        "Order": []
+      },
+      {
+        "Number": 3,
+        "Slot": 4,
+        "RemainSlot": 4,
+        "IsFree": true,
+        "Order": [
+          {
+            "ItemName": "Capuchino",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  }
+}
