@@ -287,3 +287,34 @@ Interface:
 |Nhược điểm| Không thể extend nhiều abstract class.|Mỗi khi định nghĩa thêm tính năng, các class impelement nó đồng lọat phải thêm tính năng đó, khả năng cao sẽ không có xử lý gì.|
 
 
+#### SOLID
+- Single responsibility priciple (SRP)
+- Open/Closed principle (OCP)
+- Liskov substitution principe (LSP)
+- Interface segregation principle (ISP)
+- Dependency inversion principle (DIP) Trong bài viết này mình sẽ giới thiệu từng nguyên tắc trong 5 nguyên tắc trên cũng như cách áp dụng nó làm tăng chất lượng code trong Ruby
+
+
+# DESIGN PATTERN
+
+Design patterns là những giải pháp tái sử dụng cho các vấn đề phổ biến trong thiết kế và phát triển phần mềm. Chúng đại diện cho các phương pháp tốt nhất và các cách tiếp cận đã được kiểm chứng để giải quyết các thách thức cụ thể trong thiết kế và kiến trúc.
+
+Design patterns không phải là thiết kế hoàn chỉnh hoặc đoạn mã. Thay vào đó, chúng là mô tả cấp cao về mối quan hệ và tương tác giữa các lớp, đối tượng và thành phần phần mềm. Chúng miêu tả cấu trúc, hành vi và sự cộng tác giữa các thành phần phần mềm, tập trung vào sắp xếp các lớp và đối tượng để đạt được các mục tiêu cụ thể.
+
+Design patterns mang lại nhiều lợi ích:
+
+Tái sử dụng: Design patterns cung cấp các giải pháp có thể được tái sử dụng trong các ngữ cảnh và ứng dụng khác nhau, tiết kiệm thời gian và công sức bằng cách sử dụng các phương pháp đã được kiểm chứng.
+
+Dễ bảo trì: Design patterns thúc đẩy thiết kế theo cách mô đun và có cấu trúc, làm cho việc hiểu, chỉnh sửa và bảo trì mã nguồn dễ dàng hơn theo thời gian.
+
+Mở rộng: Bằng cách tuân theo design patterns, hệ thống có thể được thiết kế để linh hoạt và thích ứng, cho phép mở rộng và phát triển dễ dàng khi yêu cầu thay đổi.
+
+Sự cộng tác: Design patterns cung cấp ngôn ngữ và từ vựng chung cho kỹ sư phần mềm để truyền tải và chia sẻ các khái niệm và ý tưởng thiết kế.
+
+Có một số loại design patterns, bao gồm các pattern tạo đối tượng (ví dụ: Singleton, Factory), pattern cấu trúc (ví dụ: Adapter, Decorator) và pattern hành vi (ví dụ: Observer, Strategy). Mỗi pattern giải quyết các loại vấn đề cụ thể và cung cấp hướng dẫn để giải quyết chúng.
+
+Quan trọng là nhớ rằng design patterns không phải lúc nào cũng áp dụng hoặc cần thiết trong mọi tình huống. Chúng nên được sử dụng một cách thận trọng, dựa trên yêu cầu cụ thể và ràng buộc của dự án. Cũng quan trọng là xem xét các sự đánh đổi và nhược điểm có thể đi kèm khi sử dụng design patterns, như tăng độ phức tạp hoặc giảm hiệu năng trong một số trường hợp.
+
+Tổng quan, design patterns là công cụ quý giá để cải thiện thiết kế phần mềm, thúc đẩy tính mô-đun và xây dựng mã nguồn có khả năng bảo trì và mở rộng.
+
+
